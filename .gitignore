@@ -36,11 +36,9 @@ docker-compose.override.yml
 # storybook
 storybook-static
 
-# local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# env
+.env
+*.local
 
 # Cache Files
 .eslintmdcache
