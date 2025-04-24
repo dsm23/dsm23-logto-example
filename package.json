@@ -23,7 +23,7 @@
     "coupling-graph": "pnpm dlx madge --extensions js,jsx,ts,tsx,css,md,mdx ./ --exclude '.next|tailwind.config.js|reset.d.ts|prettier.config.js|postcss.config.js|playwright.config.ts|next.config.js|next-env.d.ts|instrumentation.ts|e2e/|README.md|.storybook/|.eslintrc.js' --image graph.svg"
   },
   "dependencies": {
-    "@logto/next": "4.2.2",
+    "@logto/next": "4.2.3",
     "@next/bundle-analyzer": "15.3.1",
     "@opentelemetry/api-logs": "0.200.0",
     "@opentelemetry/exporter-jaeger": "2.0.0",
