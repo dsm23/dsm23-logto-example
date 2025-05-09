@@ -16,7 +16,7 @@ services:
       - ENDPOINT
       - ADMIN_ENDPOINT
   postgres:
-    image: postgres:17.4@sha256:4aed4b0525233308fc5de1b8d47f92326460d598dc5f004d14b41f183360b4e9
+    image: postgres:17.5@sha256:864831322bf2520e7d03d899b01b542de6de9ece6fe29c89f19dc5e1d5568ccf
     user: postgres
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
