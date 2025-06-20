@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@logto/next':
-        specifier: 4.2.4
-        version: 4.2.4(next@15.3.4(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.1)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+        specifier: 4.2.5
+        version: 4.2.5(next@15.3.4(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.1)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       '@next/bundle-analyzer':
         specifier: 15.3.4
         version: 15.3.4
@@ -1786,19 +1786,19 @@ packages:
   '@keyv/serialize@1.0.3':
     resolution: {integrity: sha512-qnEovoOp5Np2JDGonIDL6Ayihw0RhnRh6vxPuHo4RDn1UOzwEo4AeIfpL6UGIrsceWrCMiVPgwRjbHu4vYFc3g==}
 
-  '@logto/client@3.1.3':
-    resolution: {integrity: sha512-5vPnl5nOZ4ZGilbMazBqSTnspg08TLG+jyXzv0zWv9dmUf0xNOT0uaD19tCpPh+0WwdeeXKJblrjiyiCQsKBpg==}
+  '@logto/client@3.1.4':
+    resolution: {integrity: sha512-aaz1XrLLTBii5lz3c7oHr/kqcR2iTbTehxlCn3YMnSyGUBVjoUYH4eU37wqf08nEYjtsLaSndYu63WVN8/Fpqw==}
 
-  '@logto/js@6.0.0':
-    resolution: {integrity: sha512-YOnK4buIj5r4S/2+eA5zaxSV1kXkMHMpdVJfzWiRT5pzHoCyX4PzOWae8diwGnB7KGKXGVaCirYhlw8LA2ysgQ==}
+  '@logto/js@6.1.0':
+    resolution: {integrity: sha512-FGFDtqZqVP0mUR7ze7Uz488TsMSWQkMiU00PefJg/MMQJeI93WejPcpPkGd4JvoKAVj99wfsY/0AR1gMADCLyQ==}
 
-  '@logto/next@4.2.4':
-    resolution: {integrity: sha512-XVdR0nvY8Z5iNlzbNU6fXMm/3ZGHQnqmuh2a9sSWA/Afw0491hz2pvBByjMjXwhOKNa0shdcktj6OoxLstawUA==}
+  '@logto/next@4.2.5':
+    resolution: {integrity: sha512-zNeuX7Mk1A+QIyhrOxjPwknIT4G18DmMZHYzoWExz6c46cgEreFjoxJG/auTPnS8LYDEuO55TXytnHaKtYczCQ==}
     peerDependencies:
       next: '>=12'
 
-  '@logto/node@3.1.5':
-    resolution: {integrity: sha512-FRuHr3dw1YJe/JdTIcDlTC+KYvPPopJ5wWL+h+2COpxJ76xsd6QU2L14Y4AMMunlWqnBqpX07sYmJyHXmaLyhw==}
+  '@logto/node@3.1.6':
+    resolution: {integrity: sha512-X/y49goHwbsVRqZmeD0fmw2XepOGFKvJpE6ZXBg995y+zBz+W/QcrZVsg9wUH2L80Z3xLbxoTCOf02IBKGk2qg==}
 
   '@mdx-js/react@3.1.0':
     resolution: {integrity: sha512-QjHtSaoameoalGnKDT3FoIl4+9RwyTmo9ZJGBdLOks/YOiWHoRDI3PUwEzOE7kEmGcV3AFcp9K6dYu9rEuKLAQ==}
@@ -10880,28 +10880,28 @@ snapshots:
     dependencies:
       buffer: 6.0.3
 
-  '@logto/client@3.1.3':
+  '@logto/client@3.1.4':
     dependencies:
-      '@logto/js': 6.0.0
+      '@logto/js': 6.1.0
       '@silverhand/essentials': 2.9.2
       camelcase-keys: 9.1.3
       jose: 5.10.0
 
-  '@logto/js@6.0.0':
+  '@logto/js@6.1.0':
     dependencies:
       '@silverhand/essentials': 2.9.2
       camelcase-keys: 9.1.3
 
-  '@logto/next@4.2.4(next@15.3.4(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.1)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))':
+  '@logto/next@4.2.5(next@15.3.4(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.1)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))':
     dependencies:
       '@edge-runtime/cookies': 5.0.2
-      '@logto/node': 3.1.5
+      '@logto/node': 3.1.6
       cookie: 1.0.2
       next: 15.3.4(@babel/core@7.26.7)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.1)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 
-  '@logto/node@3.1.5':
+  '@logto/node@3.1.6':
     dependencies:
-      '@logto/client': 3.1.3
+      '@logto/client': 3.1.4
       '@silverhand/essentials': 2.9.2
       js-base64: 3.7.7
 
