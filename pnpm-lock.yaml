@@ -328,11 +328,11 @@ importers:
         specifier: 16.23.1
         version: 16.23.1(typescript@5.9.2)
       stylelint-config-standard:
-        specifier: 38.0.0
-        version: 38.0.0(stylelint@16.23.1(typescript@5.9.2))
+        specifier: 39.0.0
+        version: 39.0.0(stylelint@16.23.1(typescript@5.9.2))
       stylelint-order:
-        specifier: 6.0.4
-        version: 6.0.4(stylelint@16.23.1(typescript@5.9.2))
+        specifier: 7.0.0
+        version: 7.0.0(stylelint@16.23.1(typescript@5.9.2))
       stylelint-selector-bem-pattern:
         specifier: 4.0.1
         version: 4.0.1(stylelint@16.23.1(typescript@5.9.2))
@@ -7656,8 +7656,8 @@ packages:
     resolution: {integrity: sha512-8sLjZwK0R+JlxlYcTuVnyT2v+htpdrjDOKuMcOVdYjt52Lh8hWRYpxBPoKx/Zg+bcjc3wx6fmQevMmUztS/ccA==}
     engines: {node: '>=4'}
 
-  postcss-sorting@8.0.2:
-    resolution: {integrity: sha512-M9dkSrmU00t/jK7rF6BZSZauA5MAaBW4i5EnJXspMwt4iqTh/L9j6fgMnbElEOfyRyfLfVbIHj/R52zHzAPe1Q==}
+  postcss-sorting@9.1.0:
+    resolution: {integrity: sha512-Mn8KJ45HNNG6JBpBizXcyf6LqY/qyqetGcou/nprDnFwBFBLGj0j/sNKV2lj2KMOVOwdXu14aEzqJv8CIV6e8g==}
     peerDependencies:
       postcss: ^8.4.20
 
@@ -8554,22 +8554,23 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  stylelint-config-recommended@16.0.0:
-    resolution: {integrity: sha512-4RSmPjQegF34wNcK1e1O3Uz91HN8P1aFdFzio90wNK9mjgAI19u5vsU868cVZboKzCaa5XbpvtTzAAGQAxpcXA==}
+  stylelint-config-recommended@17.0.0:
+    resolution: {integrity: sha512-WaMSdEiPfZTSFVoYmJbxorJfA610O0tlYuU2aEwY33UQhSPgFbClrVJYWvy3jGJx+XW37O+LyNLiZOEXhKhJmA==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
-      stylelint: ^16.16.0
+      stylelint: ^16.23.0
 
-  stylelint-config-standard@38.0.0:
-    resolution: {integrity: sha512-uj3JIX+dpFseqd/DJx8Gy3PcRAJhlEZ2IrlFOc4LUxBX/PNMEQ198x7LCOE2Q5oT9Vw8nyc4CIL78xSqPr6iag==}
+  stylelint-config-standard@39.0.0:
+    resolution: {integrity: sha512-JabShWORb8Bmc1A47ZyJstran60P3yUdI1zWMpGYPeFiC6xzHXJMkpKAd8EjIhq3HPUplIWWMDJ/xu0AiPd+kA==}
     engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.23.0
+
+  stylelint-order@7.0.0:
+    resolution: {integrity: sha512-rSWxx0KscYfxU02wEskKXES9lkRzuuONMMNkZ7SUc6uiF3tDKm7e+sE0Ax/SBlG4TUf1sp1R6f3/SlsPGmzthg==}
+    engines: {node: '>=20.19.0'}
     peerDependencies:
       stylelint: ^16.18.0
-
-  stylelint-order@6.0.4:
-    resolution: {integrity: sha512-0UuKo4+s1hgQ/uAxlYU4h0o0HS4NiQDud0NAUNI0aa8FJdmYHA5ZZTFHiV5FpmE3071e9pZx5j0QpVJW5zOCUA==}
-    peerDependencies:
-      stylelint: ^14.0.0 || ^15.0.0 || ^16.0.1
 
   stylelint-selector-bem-pattern@4.0.1:
     resolution: {integrity: sha512-zpyC52/aqwbxbtliyTKdV3gv+h/ExZUTIn7tKMt9nfILtMhYIeJNF5a3UE1dtv9L826ulXU+83YA83Ymx3jW0A==}
@@ -18173,7 +18174,7 @@ snapshots:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  postcss-sorting@8.0.2(postcss@8.5.6):
+  postcss-sorting@9.1.0(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
 
@@ -19202,19 +19203,19 @@ snapshots:
       '@babel/core': 7.26.7
       babel-plugin-macros: 3.1.0
 
-  stylelint-config-recommended@16.0.0(stylelint@16.23.1(typescript@5.9.2)):
+  stylelint-config-recommended@17.0.0(stylelint@16.23.1(typescript@5.9.2)):
     dependencies:
       stylelint: 16.23.1(typescript@5.9.2)
 
-  stylelint-config-standard@38.0.0(stylelint@16.23.1(typescript@5.9.2)):
+  stylelint-config-standard@39.0.0(stylelint@16.23.1(typescript@5.9.2)):
     dependencies:
       stylelint: 16.23.1(typescript@5.9.2)
-      stylelint-config-recommended: 16.0.0(stylelint@16.23.1(typescript@5.9.2))
+      stylelint-config-recommended: 17.0.0(stylelint@16.23.1(typescript@5.9.2))
 
-  stylelint-order@6.0.4(stylelint@16.23.1(typescript@5.9.2)):
+  stylelint-order@7.0.0(stylelint@16.23.1(typescript@5.9.2)):
     dependencies:
       postcss: 8.5.6
-      postcss-sorting: 8.0.2(postcss@8.5.6)
+      postcss-sorting: 9.1.0(postcss@8.5.6)
       stylelint: 16.23.1(typescript@5.9.2)
 
   stylelint-selector-bem-pattern@4.0.1(stylelint@16.23.1(typescript@5.9.2)):
