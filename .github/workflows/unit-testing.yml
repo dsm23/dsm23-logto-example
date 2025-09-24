@@ -64,4 +64,4 @@ jobs:
           FORCE_COLOR: 1
 
       - name: Jest Coverage Comment
-        uses: MishaKav/jest-coverage-comment@aa3935cf9ee61efc40d9e47dcc8a523a49a70b96 # v1.0.28
+        uses: MishaKav/jest-coverage-comment@174f9cbf582b7cc2a7a3acce14dcfc8362e9d37f # v1.0.29
