@@ -1,16 +1,19 @@
 # syntax=docker.io/docker/dockerfile:1@sha256:dabfc0969b935b2080555ace70ee69a5261af8a8f1b4df97b9e7fbcf6722eddf
 
-FROM node:22.19.0-alpine@sha256:d2166de198f26e17e5a442f537754dd616ab069c47cc57b889310a717e0abbf9 AS base
+FROM node:24.8.0-alpine@sha256:3e843c608bb5232f39ecb2b25e41214b958b0795914707374c8acc28487dea17 AS base
 
 # corepack is broken https://github.com/nodejs/corepack/issues/612
 # corepack was fixed but is will be removed from node from v25+
 # TODO: re-add corepack after it's been removed
 # RUN npm install -g corepack@latest
 
+# renovate: datasource=repology depName=alpine_3_22/gcompat versioning=loose
+ARG GCOMPAT_VERSION="1.1.0-r4"
+
 # Install dependencies only when needed
 FROM base AS deps
-# Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.
-RUN apk add --no-cache libc6-compat
+# Check https://github.com/nodejs/docker-node/tree/4adafb930bf239b610fa37c4f691bbf98dd65578#nodealpine to understand why gcompat might be needed.
+RUN apk add --no-cache "gcompat=${GCOMPAT_VERSION}"
 WORKDIR /app
 
 ENV HUSKY=0
