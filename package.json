@@ -101,8 +101,8 @@
     "@types/node": "24.7.0",
     "@types/react": "19.2.0",
     "@types/react-dom": "19.2.0",
-    "@typescript-eslint/eslint-plugin": "8.45.0",
-    "@typescript-eslint/parser": "8.45.0",
+    "@typescript-eslint/eslint-plugin": "8.46.0",
+    "@typescript-eslint/parser": "8.46.0",
     "commitizen": "4.3.1",
     "cz-conventional-changelog": "3.3.0",
     "dotenv": "17.2.3",
@@ -137,7 +137,7 @@
     "tailwindcss": "4.1.14",
     "tsc": "2.0.4",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.45.0"
+    "typescript-eslint": "8.46.0"
   },
   "engines": {
     "node": ">=22.0.0"
