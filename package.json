@@ -79,7 +79,7 @@
     "@commitlint/types": "20.0.0",
     "@eslint/compat": "1.4.1",
     "@eslint/eslintrc": "3.3.1",
-    "@eslint/js": "9.38.0",
+    "@eslint/js": "9.39.1",
     "@ianvs/prettier-plugin-sort-imports": "4.7.0",
     "@jest/globals": "29.7.0",
     "@jest/types": "29.6.3",
@@ -101,12 +101,12 @@
     "@types/node": "24.10.0",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
-    "@typescript-eslint/eslint-plugin": "8.46.2",
-    "@typescript-eslint/parser": "8.46.2",
+    "@typescript-eslint/eslint-plugin": "8.46.3",
+    "@typescript-eslint/parser": "8.46.3",
     "commitizen": "4.3.1",
     "cz-conventional-changelog": "3.3.0",
     "dotenv": "17.2.3",
-    "eslint": "9.38.0",
+    "eslint": "9.39.1",
     "eslint-config-next": "15.5.6",
     "eslint-config-prettier": "10.1.8",
     "eslint-config-react-app": "7.0.1",
@@ -137,7 +137,7 @@
     "tailwindcss": "4.1.16",
     "tsc": "2.0.4",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.46.2"
+    "typescript-eslint": "8.46.3"
   },
   "engines": {
     "node": ">=22.0.0"
